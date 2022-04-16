@@ -1,0 +1,119 @@
+.headcontainer,
+.headholder,
+.logo,
+.headitem1,
+.headitem2,
+.headitem3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(124, 148, 82);
+}
+
+.headitem1,
+.headitem2,
+.headitem3 {
+    margin-top: 56px;
+}
+
+.headerline {
+    display: block;
+    background: black;
+    height: 1px;
+    width: 100%;
+}
+
+.maintext {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.row1pic1,
+.row1pic2,
+.row2pic1,
+.row2pic2 {
+    padding: 20px;
+}
+
+.maincontainer {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .maincontainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+}
+
+.main {
+    background-color: rgb(124, 148, 82);
+}
+
+.aboutheadline {
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(124, 148, 82);  
+}
+
+.about {
+    background-color: rgb(124, 148, 82);
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    background-color: rgb(124, 148, 82);
+}
+
+.aboutus {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.locationhead {
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.oslo,
+.bergen,
+.stavanger,
+.trondheim {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactpic {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contacthead {
+    padding: 20px;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactinfo {
+    display: flex;
+    justify-content: center;
+}
+
+.list1,
+.list2 {
+    list-style: none;
+    padding: 20px;
+    font-size: 22px;
+}
